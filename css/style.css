@@ -735,15 +735,12 @@ button {
 
 /* Both Left & Right Anchored to Identical Bottom Line */
 .floating-action-left,
-.floating-action-right {
-  position: fixed !important;
-  bottom: 24px !important;
-  z-index: 9999 !important;
-  display: flex !important;
-  align-items: center !important;
-  flex-wrap: nowrap !important;
-  height: 60px !important;
-  pointer-events: auto !important;
+.floating-action-right,
+.floating-tooltip {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 .floating-action-left {
