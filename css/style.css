@@ -112,6 +112,7 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
   text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -710,7 +711,8 @@ button {
 }
 
 /* Mobile Toggle */
-.mobile-menu-toggle {
+.mobile-menu-toggle,
+.kridha-mobile-toggle {
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -718,13 +720,17 @@ button {
   height: 20px;
   cursor: pointer;
   z-index: 1001;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
-.mobile-menu-toggle span {
+.mobile-menu-toggle span,
+.kridha-mobile-toggle span {
   display: block;
   height: 2.5px;
   width: 100%;
-  background-color: var(--gold-light);
+  background-color: #10345c;
   border-radius: 2px;
   transition: all 0.3s ease;
 }
@@ -3501,32 +3507,38 @@ textarea.form-control {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 24px;
+  padding: 8px 20px;
   max-width: 1400px;
   margin: 0 auto;
-  gap: 16px;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .kridha-brand-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .kridha-brand-logo img {
-  height: 52px;
+  height: 48px;
+  max-height: 50px;
   width: auto;
   object-fit: contain;
+  display: block;
 }
 
 .kridha-nav-menu {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
   list-style: none;
   margin: 0;
   padding: 0;
+  flex-wrap: nowrap;
 }
 
 .kridha-nav-item {
@@ -3537,11 +3549,11 @@ textarea.form-control {
 .kridha-nav-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 11px;
+  gap: 5px;
+  padding: 6px 9px;
   color: #1e293b;
   font-family: var(--font-body);
-  font-size: 0.88rem;
+  font-size: 0.84rem;
   font-weight: 600;
   border-radius: 8px;
   text-decoration: none;
@@ -4747,6 +4759,29 @@ textarea.form-control {
 
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
+  .kridha-mobile-toggle {
+    display: flex;
+  }
+
+  .kridha-nav-menu {
+    display: none;
+  }
+
+  .kridha-nav-menu.mobile-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    padding: 16px 20px;
+    box-shadow: 0 16px 32px rgba(16, 52, 92, 0.15);
+    border-bottom: 2px solid #1268b5;
+    z-index: 1100;
+    gap: 8px;
+  }
+
   .kridha-services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
