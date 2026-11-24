@@ -54,7 +54,7 @@ function initMobileMenu() {
     });
   }
 
-  // Mobile dropdown expansion in Kridha Header
+  // Mobile dropdown expansion in Header
   const kridhaDropdowns = document.querySelectorAll('.kridha-dropdown > .kridha-nav-link');
   kridhaDropdowns.forEach(link => {
     link.addEventListener('click', (e) => {
@@ -359,7 +359,7 @@ function initHeroSlider() {
   const slider = document.getElementById('heroSlider') || document.getElementById('heroSliderSection');
   if (!slider) return;
 
-  // New Kridha Hero Slider
+  // New HERO SLIDER
   const kridhaSlides = slider.querySelectorAll('.kridha-hero-slide');
   const kridhaDots = slider.querySelectorAll('.kridha-dot');
   const prevBtn = document.getElementById('sliderPrev') || document.getElementById('heroPrevBtn');
@@ -368,7 +368,7 @@ function initHeroSlider() {
   if (kridhaSlides.length > 0) {
     let currentSlide = 0;
     const totalSlides = kridhaSlides.length;
-    const intervalTime = 5500; // 5.5s delay matching kridhahospital.in
+    const intervalTime = 5500; // 5.5s delay matching utkarshclinic.in
     let autoSlideTimer = null;
 
     function goToSlide(index) {

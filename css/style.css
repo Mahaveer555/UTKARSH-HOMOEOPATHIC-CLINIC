@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
 
 :root {
-  /* Brand Primary Colors - Kridha Hospital Healthcare System */
+  /* Brand Primary Colors - UTKARSH CLINIC Healthcare System */
   --primary-dark: #0a223c;
   --primary-green: #10345c;
   /* Deep Navy Blue - Main Nav & Dark Sections */
@@ -385,7 +385,7 @@ button {
 }
 
 /* ==========================================================================
-   MAIN SITE HEADER (KRIDHA HOSPITAL HEALTHCARE THEME)
+   MAIN SITE HEADER (UTKARSH CLINIC HEALTHCARE THEME)
    ========================================================================== */
 .site-header {
   background-color: var(--kridha-navy);
@@ -3484,7 +3484,7 @@ textarea.form-control {
 }
 
 /* ==========================================================================
-   KRIDHA HOSPITAL EXACT REPLICA DESIGN SYSTEM (FOR UTKARSH CLINIC)
+   UTKARSH CLINIC MODERN HEALTHCARE DESIGN SYSTEM (FOR UTKARSH CLINIC)
    Matches Screenshots 1 - 7 (White + Blue + Red + Deep Navy)
    ========================================================================== */
 
@@ -3600,7 +3600,7 @@ textarea.form-control {
   color: #1268b5;
 }
 
-/* Kridha Dropdown Menu (Clean Healthcare Cards) */
+/* Dropdown Menu (Clean Healthcare Cards) */
 .kridha-dropdown-menu {
   position: absolute;
   top: 100%;
@@ -3736,7 +3736,7 @@ textarea.form-control {
 }
 
 /* ==========================================================================
-   KRIDHA HERO SLIDER (Replica of kridhahospital.in Hero Slider)
+   HERO SLIDER (Replica of utkarshclinic.in Hero Slider)
    ========================================================================== */
 .kridha-hero-slider {
   position: relative;

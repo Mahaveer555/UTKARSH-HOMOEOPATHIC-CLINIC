@@ -10,7 +10,7 @@ A premium, modern, responsive healthcare website built for **Utkarsh Homoeopathi
 ## 🌟 Key Features
 
 - **Hero Slider & Carousel:** Dynamic 5.5s cross-fade healthcare slider with appointment booking and emergency call triggers.
-- **Modern Kridha Healthcare Design System:** White + Trust Blue (`#1268B5`) + Accent Red (`#D62839`) + Deep Navy (`#10345C`).
+- **Modern Premium Healthcare Design System:** White + Trust Blue (`#1268B5`) + Accent Red (`#D62839`) + Deep Navy (`#10345C`).
 - **Complete Speciality Hubs:**
   - **Skin Disease:** Hair Fall, Psoriasis, Eczema, Pimples & Pigmentation, Vitiligo.
   - **Allergy Treatment:** Asthma, Cough, Sinusitis, Influenza.
