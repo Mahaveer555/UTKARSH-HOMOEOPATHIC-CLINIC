@@ -1,0 +1,17 @@
+# Binaries & Tools
+bin/
+*.zip
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Scratch & Temporary scripts
+scratch/
+*.log
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
